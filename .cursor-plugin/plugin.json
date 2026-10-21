@@ -1,7 +1,7 @@
 {
   "name": "wicle",
   "version": "0.1.0",
-  "description": "Analyze website traffic, conversions, funnels, and segments with your Wicle project.",
+  "description": "Connect website analytics and AI-native A/B testing to your AI assistant. Analyze visitor behavior, uncover conversion bottlenecks, and design, implement, and evaluate A/B tests.",
   "author": {
     "name": "PLAID, Inc."
   },
