@@ -1,0 +1,27 @@
+{
+  "name": "wicle",
+  "version": "0.1.0",
+  "description": "Analyze website traffic, conversions, funnels, and segments with your Wicle project.",
+  "author": {
+    "name": "PLAID, Inc."
+  },
+  "homepage": "https://wicle.io/",
+  "repository": "https://github.com/plaidev/wicle-mcp",
+  "license": "MIT",
+  "keywords": ["analytics", "website", "conversion", "funnels", "mcp"],
+  "logo": "assets/logo.svg",
+  "mcpServers": "mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "WICLE_PROJECT_ID": {
+        "type": "string",
+        "title": "Wicle project ID",
+        "description": "The 24-character project ID at the end of the MCP URL in your Wicle project's MCP settings.",
+        "minLength": 24,
+        "maxLength": 24
+      }
+    },
+    "required": ["WICLE_PROJECT_ID"]
+  }
+}

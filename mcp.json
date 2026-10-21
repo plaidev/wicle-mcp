@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "wicle": {
+      "url": "https://app.wicle.io/mcp/projects/${WICLE_PROJECT_ID}"
+    }
+  }
+}
